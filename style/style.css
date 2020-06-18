@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+html,body{
+  height: 100%;
+}
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+.center{
+  padding: 0 2%;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  background: #212343;
+  padding: 15px;
+  width: 100%;
+}
+
+header .center img{
+  margin-bottom: 5px;
+}
+
+#section1{
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  max-height: 555px;
+}
+
+#section1 .float-left{
+  margin-top: 100px;
+  background-color: rgba(33,35,67,0.7);
+  width: 50%;
+  max-width: 530px;
+  height: 100%;
+  padding: 40px 30px;
+  float: left;
+}
+
+#section1 .float-left ul{
+  list-style-position: inside;
+  color: white;
+  margin-top: 10px;
+}
+
+#section1 .float-left ul li{
+  margin-bottom: 20px;
+}
+
+#section1 .formulario{
+  width: 40%;
+  max-width: 400px;
+  position: relative;
+  top: -15px;
+  background-color: white;
+  background-clip: padding-box;
+  border: 12px solid rgba(120,120,120,0.5);
+  float: right;
+}
+
+#section1 .formulario form{
+  padding: 10px;
+}
+
+#section1 .formulario form h2{
+  font-size: 21px;
+  font-weight: normal;
+  color: #999999;
+}
+
+#section1 .formulario form .w100{
+  width: 100%;
+  margin-top: 20px;
+}
+
+#section1 .formulario form .w100 input{
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px 5px;
+  border: 1px solid #ccc;
+}
+
+#section1 .formulario form .w100 label{
+  color: #BBBBBB;
+}
+
+#section1 .formulario form p{
+  color: #BBBBBB;
+  margin: 20px 0;
+}
+
+#section1 .formulario form .submit{
+  width: 100%;
+}
+
+#section1 .formulario form .submit input{
+  border-bottom: 5px solid #4A5097;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: #363A6D;
+  height: 56px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 280px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 38px;
+}
+
+
+
+
+
+
