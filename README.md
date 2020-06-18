@@ -1,2 +1,4 @@
 # Projeto_1_curso_webmaster
-Projeto des
+Projeto desenvolvido no curso webmaster
+
+Tecnologias: HTML E CSS
